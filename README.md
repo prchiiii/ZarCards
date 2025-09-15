@@ -6,6 +6,10 @@
 
 ZarCards is a Node.js library for generating beautiful and customizable music cards. It's built with `@napi-rs/canvas` for high performance.
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ZarCodeX/ZarCards/refs/heads/main/example/music-card-all-features.png" width="400"/>
+</div>
+
 ## Features
 
 - 🎨 **Customizable Themes**: Easily create and use your own themes.
@@ -22,6 +26,10 @@ npm install zarcards
 ```
 
 ## Usage
+
+```js
+import { Zar } from 'zarcards';
+```
 
 ### ESM
 
@@ -129,7 +137,26 @@ const card = new Zar(myTheme);
 
 ## Examples
 
-You can find more examples in the `example` folder.
+### Basic Card
+<img src="https://raw.githubusercontent.com/ZarCodeX/ZarCards/refs/heads/main/example/music-card-basic.png" width="300"/>
+
+### Card with Progress Bar
+<img src="https://raw.githubusercontent.com/ZarCodeX/ZarCards/refs/heads/main/example/music-card-progress.png" width="300"/>
+
+### Card with Image Darkness
+<img src="https://raw.githubusercontent.com/ZarCodeX/ZarCards/refs/heads/main/example/music-card-darkness.png" width="300"/>
+
+### Rectangular Card
+<img src="https://raw.githubusercontent.com/ZarCodeX/ZarCards/refs/heads/main/example/music-card-rectangular.png" width="300"/>
+
+### Card with Rounded Author Image
+<img src="https://raw.githubusercontent.com/ZarCodeX/ZarCards/refs/heads/main/example/music-card-author-rounded.png" width="300"/>
+
+### Card with Square Author Image
+<img src="https://raw.githubusercontent.com/ZarCodeX/ZarCards/refs/heads/main/example/music-card-author-square.png" width="300"/>
+
+### Card with All Features
+<img src="https://raw.githubusercontent.com/ZarCodeX/ZarCards/refs/heads/main/example/music-card-all-features.png" width="300"/>
 
 To run the examples, clone the repository and run the following command:
 
