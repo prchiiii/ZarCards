@@ -1,0 +1,53 @@
+{
+  "name": "zarcards",
+  "version": "1.0.0",
+  "description": "🎶 ZarCards - Generate beautiful customizable music cards with Node.js. Supports themes, custom colors, progress bars, and optional background images.",
+  "main": "./src/index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./src/index.cjs"
+    }
+  },
+  "files": [
+    "src",
+    "fonts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node example/example.js",
+    "example": "node example/example.js",
+    "lint": "echo \"No linter configured\"",
+    "build": "echo \"No build step needed\""
+  },
+  "keywords": [
+    "music",
+    "music-card",
+    "card-generator",
+    "canvas",
+    "discord",
+    "zarcards",
+    "zarcomusic",
+    "image",
+    "album-art",
+    "themes"
+  ],
+  "author": "Muhammad Abuzar (ZarCodeX)",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZarCodeX/ZarCards.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZarCodeX/ZarCards/issues"
+  },
+  "homepage": "https://github.com/ZarCodeX/ZarCards#readme",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.51"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

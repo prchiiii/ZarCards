@@ -1,0 +1,29 @@
+# Ignore examples
+example/
+
+# Ignore fonts (not needed inside package, unless your code requires them at runtime)
+fonts/
+
+# Ignore dependencies (users install their own)
+node_modules/
+
+# Lockfiles
+package-lock.json
+*.log
+
+# Local dev / editor stuff
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+
+# Tests (if you add them later)
+test/
+tests/
+
+# Git & misc
+.git/
+.gitignore
+.npmignore
