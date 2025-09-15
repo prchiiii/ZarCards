@@ -7,7 +7,7 @@
 ZarCards is a Node.js library for generating beautiful and customizable music cards. It's built with `@napi-rs/canvas` for high performance.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ZarCodeX/ZarCards/refs/heads/main/example/music-card-all-features.png" width="400"/>
+  <img src="https://repository-images.githubusercontent.com/1057054462/c8af1fc2-4688-4cb8-882e-992f4d0bcb46" width="1000"/>
 </div>
 
 ## Features
